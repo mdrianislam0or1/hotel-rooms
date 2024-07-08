@@ -1,0 +1,80 @@
+.room__list__grid {
+  display: grid;
+  grid-template-columns: 5fr 5fr 3fr;
+  column-gap: 20px;
+}
+
+.room__title {
+  font-size: 22px;
+  color: #222;
+  font-weight: 700;
+  outline: 0;
+}
+.room__paragraph {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 10px 0;
+  color: var(--color-sm-gray);
+}
+
+.roomList__icons {
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  cursor: grab;
+  box-sizing: content-box;
+  column-gap: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #858a99;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.room__listButton {
+  background-color: white;
+  color: #19a1f7;
+  width: auto;
+  margin: 0 auto;
+  background: #fff;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  -webkit-transition: 0.3s;
+  transition: all ease 0.3s;
+  display: inline-block;
+  line-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+.room__listButton:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+.perNight__price {
+  font-size: 24px;
+  color: var(--color-md-gray);
+}
+
+.perNight {
+  color: var(--color-sm-gray);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
