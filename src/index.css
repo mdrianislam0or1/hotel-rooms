@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0.2px;
 }
+body {
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
 :root {
   --color-primary: #19a1f7;
   --color-sm-gray: #858a99;

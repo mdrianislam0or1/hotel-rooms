@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link, Route, Routes } from 'react-router-dom'
 import HotelRoom from './components/HotelRoom/HotelRoom'
 import RoomList from './components/RoomList/RoomList'
@@ -6,9 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='container'>
-
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className=''>
+        
+        {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <Link to="/" className="navbar-brand">HOTEL-ROOM</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +26,10 @@ function App() {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
 
       </div>
-      <Routes className="container mt-10">
+      <Routes className="">
         <Route path="/" element={<HotelRoom />} />
         <Route path="/room-list" element={<RoomList />} />
 
