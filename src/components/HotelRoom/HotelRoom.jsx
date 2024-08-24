@@ -54,8 +54,8 @@ function HotelRoom() {
                 </div> */}
                 <div className="room-info">
                   <strong>
-                  <p className="price__syle">{room.price}</p>
-                  <h1 className="room-name ">{room.name}</h1>
+                    <p className="price__syle">{room.price}</p>
+                    <h1 className="room-name ">{room.name}</h1>
                   </strong>
                 </div>
               </div>

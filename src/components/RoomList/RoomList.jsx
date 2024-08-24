@@ -52,7 +52,7 @@ const rooms = [
 
 const RoomList = () => {
     return (
-        <div style={{marginTop:"30px"}} className="custom__container">
+        <div style={{ marginTop: "30px" }} className="custom__container">
             {rooms.map((room) => (
                 <div key={room.id} className="room__list">
                     <div className=" ">
